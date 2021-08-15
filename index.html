@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+    <title>Slice A Dice</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Megrim&family=Rammetto+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header id="header">
+        <nav class="navbar">
+            <h2 class="logo">simplegames</h2>
+
+            <ul class="nav-list">
+                <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#rules" class="nav-link">Rules</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Games</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="heading">
+        <div class="headings">
+            <h2 class="game-heading">SLICE A DICE</h2>
+        </div>
+    </section>
+
+    <section id="game">
+        <div class="game-container">
+            <h2 class="change" id="change">Your Score: <span class="score" id="score">--</span></h2>
+            <h2 class="time" id="time">Time Remaining: <span class="timer" id="timer">60</span></h2>
+            <button class="start" id="start">Start Game</button>
+            <diV class="animated" id="animated">
+                <div class="circle"></div>
+            </diV>           
+        </div>
+    </section>
+
+    <section id="rules">
+        <h2 class="rule-heading">Rules</h2>
+        <ul class="rule-list">
+            <li class="rule-item">1. Start game by clicking on the button "START GAME" </li>
+            <li class="rule-item">2. A red block with randomly pop. Hit it to score a point.</li>
+            <li class="rule-item">3. Each hit equals one point. You are given 60 seconds. Score as much as possible.</li>
+            <li class="rule-item">4. Refresh to start game again.</li>
+        </ul>
+    </section>
+
+    <footer id="foot">
+        <p class="footer-cpyrght">simplegames@2021</p>
+    </footer>
+    <!-- <div class="broken" id="broken"></div> -->
+    <script src="index.js"></script>
+</body>
+</html>
